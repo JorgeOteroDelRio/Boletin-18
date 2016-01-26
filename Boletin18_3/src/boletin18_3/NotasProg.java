@@ -78,6 +78,10 @@ public class NotasProg {
         }
     }
     
+    public void consultarNota(int indice){
+        System.out.println("La nota de " + alumnos[indice] + " es " + notas[indice]);
+    }
+    
     public void visualizarAlumnosAprobados(){
         for(int i=0;i<notas.length;i++){
             if(notas[i]>=5){

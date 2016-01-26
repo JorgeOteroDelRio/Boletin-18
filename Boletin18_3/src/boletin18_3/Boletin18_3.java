@@ -20,6 +20,7 @@ public class Boletin18_3 {
         obx.calcularMedia();
         obx.maximaNota();
         obx.nAprobadosSuspensos();
+        obx.consultarNota(3);
         obx.consultarNota();
         obx.visualizarAlumnosAprobados();
         obx.visualizarNotasOrdenAscendente();
